@@ -1,120 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily web Page</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daily web Page</title>
+  <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
-    <main class="container">
-        <section class="item item1">
-            <div>
-                <div>
-                <img  width="79px" height="79px" style="border: 4px solid white;border-radius: 100%"" src="./image-jeremy-CA1woC3-.png" alt="profile"/>
-                </div>
-            <div style="display: flex; flex-direction: column; gap:20px ;">
-                <span style="color: rgb(162,155,24);">Report for</span>
-                <span style="color: rgb(255, 255, 255);font-size: 32px;word-wrap:break-word ;">Jeremy Robson</span>
-            </div>
-            </div>
-            <ul>
-                <li>Daily</li>
-                <li style="color: rgb(255, 255, 255);">Weekly</li>
-                <li>Monthly</li>
-            </ul>
-        </section>       
+<main class="container" style="font-family:Arial, Helvetica, sans-serif;">
+  <section class="item1">
+    <div>
+      <div>
+        <img width="79px" height="79px" style="border: 4px solid white; border-radius: 100%;" src="./image-jeremy-CA1woC3-.png" alt="profile"/>
+      </div>
+      <div style="display: flex; flex-direction: column; gap:20px;">
+        <span style="color: rgb(162,155,24);">Report for</span>
+        <span style="color: #fff; font-size: 32px; word-wrap: break-word;">Jeremy Robson</span>
+      </div>
+    </div>
+    <ul>
+      <li>Daily</li>
+      <li style="color:#fff;">Weekly</li>
+      <li>Monthly</li>
+    </ul>
+  </section>
 
-        <section style="position: relative;background-color: rgb(255,138,98);" class="item">
-            <div style="position: absolute; top: 0; right: 10px;z-index: 9;">
-                <img width="48px" height="48px" src="./back.svg/work.svg"/>
-            </div>
-            <div style="position: absolute; background-color: rgb(29,32,75);width:100%;height:100%;padding-top:20px;margin-top: 35px; z-index:10;border-radius: 8px;
-            padding: 12px;
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-            color: rgb(255, 255, 255); ">
-                <div style="display: flex;
-                align-items: center;
-                justify-content: space-between;">
-                    <span>Work</span>
-                    <div style="font-size: 36px;">...</div>
-                </div>
-                <span>32hrs</span>
-                <span>Last week - 36 hrs</span>
-            </div>
-        <section/>
+  <section class="item" style="background-color: rgb(255,138,98);">
+    <div class="item__icon">
+      <img src="./back.svg/work.svg"/>
+    </div>
+    <div class="card">
+      <div>
+        <span style="font-size: 16px;">Work</span>
+        <div style="font-size: 32px;">...</div>
+      </div>
+      <span>32hrs</span>
+      <span>Last week - 36 hrs</span>
+    </div>
+  </section>
 
-        <section class="item">
-            <div>
-                <img src="./back.svg/work.svg"/>
-            </div>
-            <div>
-                <div>
-                    <span>play</span>
-                    <div>...</div>
-                </div>
-                <span>32hrs</span>
-                <span>Last week - 36 hrs</span>
-            </div>
-        <section/>
+  <section class="item" style="background-color: rgb(86,194,230);">
+    <div class="item__icon">
+      <img src="./back.svg/game.svg"/>
+    </div>
+    <div class="card">
+      <div>
+        <span  style="font-size: 16px;">Play</span>
+        <div style="font-size: 32px;">...</div>
+      </div>
+      <span>10hrs</span>
+      <span>Last week - 8 hrs</span>
+    </div>
+  </section>
 
-        <section class="item">
-            <div>
-                <img src="./back.svg/study.svg"/>
-            </div>
-            <div>
-                <div>
-                    <span>Study</span>
-                    <div>...</div>
-                </div>
-                <span>32hrs</span>
-                <span>Last week - 36 hrs</span>
-            </div>
-        <section/>
+  <section class="item" style="background-color: rgb(255,94,131);">
+    <div class="item__icon">
+      <img src="./back.svg/study.svg"/>
+    </div>
+    <div class="card">
+      <div>
+        <span  style="font-size: 16px;">Study</span>
+        <div style="font-size: 32px;">...</div>
+      </div>
+      <span>4hrs</span>
+      <span>Last week - 7 hrs</span>
+    </div>
+  </section>
 
-        <section class="item">
-            <div>
-                <img src="./back.svg/workout.svg"/>
-            </div>
-            <div>
-                <div>
-                    <span>Exercise</span>
-                    <div>...</div>
-                </div>
-                <span>32hrs</span>
-                <span>Last week - 36 hrs</span>
-            </div>
-        <section/>
-        
-    <section class="item">
-            <div>
-                <img src="./back.svg/social.svg"/>
-            </div>
-            <div>
-                <div>
-                    <span>social</span>
-                    <div>...</div>
-                </div>
-                <span>32hrs</span>
-                <span>Last week - 36 hrs</span>
-            </div>
-        <section/>
+  <section class="item" style="background-color: rgb(74,207,129);">
+    <div class="item__icon">
+      <img src="./back.svg/workout.svg"/>
+    </div>
+    <div class="card">
+      <div>
+        <span  style="font-size: 16px;">Exercise</span>
+        <div style="font-size: 32px;">...</div>
+      </div>
+      <span style="font-size: 32px;" >4hrs</span>
+      <span>Last week - 5 hrs</span>
+    </div>
+  </section>
 
-        <section class="item">
-            <div>
-                <img src="./back.svg/selfcare.svg"/>
-            </div>
-            <div>
-                <div>
-                    <span>Self Care</span>
-                    <div>...</div>
-                </div>
-                <span>32hrs</span>
-                <span>Last week - 36 hrs</span>
-            </div>
-        <section/>
-    </main>
-</body>
-</html>
+  <section class="item" style="background-color: rgb(117,56,201);">
+    <div class="item__icon">
+      <img src="./back.svg/social.svg"/>
+    </div>
+    <div class="card">
+      <div>
+        <span  style="font-size: 16px;">Social</span>
+        <div style="font-size: 32px;">...</div>
+      </div>
+      <span>5hrs</span>
+      <span>Last week - 10 hrs</span>
+    </div>
+  </section>
+
+  <section class="item" style="background-color: rgb(241,198,91);">
+    <div class="item__icon">
+      <img src="./back.svg/selfcare.svg"/>
+    </div>
+    <div class="card">
+      <div>
+        <span  style="font-size: 16px;">Self Care</span>
+        <div style="font-size: 32px;">...</div>
+      </div>
+      <span>2hrs</span>
+      <span>Last week - 2 hrs</span>
+    </div>
+  </section>
+</main>
